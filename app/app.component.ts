@@ -1,5 +1,5 @@
 // using statement
-import {Component} from 'angular2/core';
+import { Component } from '@angular/core';
 
 // Component is a decorator function that takes a metadata object. The metadata tell Angular how to create and use this component.
 @Component({

@@ -1,12 +1,20 @@
 #Visual Studio Code - Angular 2 starter app
 
-
 ### Setup
 
 Before building the project with VS Code, we need to install all of our node packages.
 
-From the command line run:
+From the command line (Admin) run:
 
+    npm install
+
+If you get the following error message:
+
+    > npm ERR! peerinvalid The package @angular/core@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!
+
+You will need to update npm first, now run the following commands from the command line:
+
+    npm install npm -g
     npm install
 
 ### Build
