@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
     selector: 'my-app',
     template: '<h1>My First Angular 2 App</h1><p>With Visual Studio Code</p>'
 })
+
+// Export the component for use.
 export class AppComponent { }
